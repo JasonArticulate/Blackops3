@@ -1,57 +1,138 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>ModsShop - Your Gateway to Game Modding</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <script src="js/scripts.js" defer></script>
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call of Duty Modding Hub</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <style>
+        body { 
+            font-family: 'Rubik', sans-serif; 
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* Futuristic gradient */
+            color: #ffffff;
+            overflow-x: hidden;
+        }
+        header, footer {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        header h1 {
+            text-align: center;
+            font-size: 3rem;
+            animation: fadeInDown 2s;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+            font-size: 1.2rem;
+            animation: bounceIn 1.5s;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #00e676;
+        }
+        #intro {
+            text-align: center;
+            padding: 50px;
+            animation: fadeIn 3s;
+        }
+        #featured-mods {
+            padding: 50px;
+            text-align: center;
+        }
+        .mod-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .mod-item {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            animation: zoomIn 1s;
+        }
+        .mod-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+        }
+        .mod-item a {
+            text-decoration: none;
+            color: #00e676;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
-  <canvas id="backgroundCanvas"></canvas>
-  <div id="container">
     <header>
-      <h1>ModsShop</h1>
-      <nav>
-        <ul>
-          <li><a href="ps3.html">PS3 Mods</a></li>
-          <li><a href="ps4.html">PS4 Mods</a></li>
-          <li><a href="pc.html">PC Mods</a></li>
-        </ul>
-      </nav>
+        <h1 class="animate__animated animate__fadeInDown">Welcome to Call of Duty Modding Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mod_library.html">Mod Library</a></li>
+                <li><a href="creator_hub.html">Creator Hub</a></li>
+                <li><a href="forum.html">Community Forum</a></li>
+                <li><a href="tools_resources.html">Tools & Resources</a></li>
+                <li><a href="news.html">News & Updates</a></li>
+                <li><a href="community_challenges.html">Community Challenges</a></li>
+                <li><a href="mod_tutorials.html">Mod Tutorials</a></li>
+                <li><a href="profile.html">My Profile</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-      <h2>Welcome to ModsShop</h2>
-      <p>What are you looking for today?</p>
-      <div class="platform-selection">
-        <div class="card" onclick="location.href='ps3.html';">
-          <h3>PS3 Mods</h3>
-          <p>Explore mods for PlayStation 3</p>
+    <section id="intro">
+        <h2>Your One-Stop Hub for Call of Duty Mods</h2>
+        <p>Explore and enhance your Call of Duty experience with our community-driven mods and resources. Mods available for PS3, PS4, PS5, and PC!</p>
+    </section>
+    <section id="featured-mods">
+        <h2>Featured Mods</h2>
+        <div class="mod-gallery">
+            <div class="mod-item animate__animated animate__zoomIn">
+                <h3>Rapid Fire Mod</h3>
+                <a href="assets/mods/rapid_fire_mod.zip" download>Download</a>
+            </div>
+            <div class="mod-item animate__animated animate__zoomIn">
+                <h3>Wallhack Script</h3>
+                <a href="assets/mods/wallhack_script.zip" download>Download</a>
+            </div>
+            <div class="mod-item animate__animated animate__zoomIn">
+                <h3>Zombie Mode Enhancements</h3>
+                <a href="assets/mods/zombie_mode_enhancements.zip" download>Download</a>
+            </div>
         </div>
-        <div class="card" onclick="location.href='ps4.html';">
-          <h3>PS4 Mods</h3>
-          <p>Discover mods for PlayStation 4</p>
-        </div>
-        <div class="card" onclick="location.href='pc.html';">
-          <h3>PC Mods</h3>
-          <p>Find the best mods for PC games</p>
-        </div>
-      </div>
-      <section class="resources">
-        <h2>Resources & FAQ</h2>
-        <p>Learn more about modding, how to get started, and answers to frequently asked questions.</p>
-        <ul>
-          <li><a href="#">What is modding?</a></li>
-          <li><a href="#">Is modding safe?</a></li>
-          <li><a href="#">How to install mods on PS3/PS4/PC?</a></li>
-          <li><a href="#">Common issues and troubleshooting</a></li>
-        </ul>
-      </section>
-    </main>
+    </section>
     <footer>
-      <p>&copy; 2024 ModsShop. All rights reserved.</p>
+        <p>&copy; 2050 Call of Duty Modding Hub. All Rights Reserved.</p>
     </footer>
-  </div>
-  <script src="js/scripts.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+        gsap.from("header", { duration: 1.5, y: -100, opacity: 0, ease: "bounce" });
+        gsap.from("#intro h2", { duration: 1.5, opacity: 0, delay: 1 });
+        gsap.from(".mod-item", { duration: 1.5, opacity: 0, y: 100, stagger: 0.3 });
+    </script>
 </body>
 </html>
