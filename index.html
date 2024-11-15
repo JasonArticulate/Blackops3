@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ModsShop</title>
+  <style>
+    /* Modal styles */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.4);
+    }
+    .modal-content {
+      background-color: #fefefe;
+      margin: 15% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      text-align: center;
+    }
+    .platform-button {
+      padding: 10px 20px;
+      margin: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div id="welcomeModal" class="modal">
+  <div class="modal-content">
+    <h2>Welcome to ModsShop</h2>
+    <p>Select your platform:</p>
+    <button class="platform-button" onclick="navigateTo('ps3')">PS3</button>
+    <button class="platform-button" onclick="navigateTo('ps4')">PS4</button>
+    <button class="platform-button" onclick="navigateTo('pc')">PC</button>
+  </div>
+</div>
+
+<script>
+  // Show the modal on page load
+  window.onload = function() {
+    document.getElementById('welcomeModal').style.display = 'block';
+  };
+
+  // Navigate to platform-specific pages
+  function navigateTo(platform) {
+    // Implement navigation logic here
+    alert('Navigating to ' + platform + ' mods page.');
+    // Example: window.location.href = platform + '.html';
+  }
+</script>
+
+</body>
+</html>
