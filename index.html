@@ -2,60 +2,56 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>ModsShop</title>
-  <style>
-    /* Modal styles */
-    .modal {
-      display: none;
-      position: fixed;
-      z-index: 1;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      overflow: auto;
-      background-color: rgba(0,0,0,0.4);
-    }
-    .modal-content {
-      background-color: #fefefe;
-      margin: 15% auto;
-      padding: 20px;
-      border: 1px solid #888;
-      width: 80%;
-      text-align: center;
-    }
-    .platform-button {
-      padding: 10px 20px;
-      margin: 10px;
-      cursor: pointer;
-    }
-  </style>
+  <title>ModsShop - Your Gateway to Game Modding</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/scripts.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-<div id="welcomeModal" class="modal">
-  <div class="modal-content">
-    <h2>Welcome to ModsShop</h2>
-    <p>Select your platform:</p>
-    <button class="platform-button" onclick="navigateTo('ps3')">PS3</button>
-    <button class="platform-button" onclick="navigateTo('ps4')">PS4</button>
-    <button class="platform-button" onclick="navigateTo('pc')">PC</button>
+  <canvas id="backgroundCanvas"></canvas>
+  <div id="container">
+    <header>
+      <h1>ModsShop</h1>
+      <nav>
+        <ul>
+          <li><a href="ps3.html">PS3 Mods</a></li>
+          <li><a href="ps4.html">PS4 Mods</a></li>
+          <li><a href="pc.html">PC Mods</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Welcome to ModsShop</h2>
+      <p>What are you looking for today?</p>
+      <div class="platform-selection">
+        <div class="card" onclick="location.href='ps3.html';">
+          <h3>PS3 Mods</h3>
+          <p>Explore mods for PlayStation 3</p>
+        </div>
+        <div class="card" onclick="location.href='ps4.html';">
+          <h3>PS4 Mods</h3>
+          <p>Discover mods for PlayStation 4</p>
+        </div>
+        <div class="card" onclick="location.href='pc.html';">
+          <h3>PC Mods</h3>
+          <p>Find the best mods for PC games</p>
+        </div>
+      </div>
+      <section class="resources">
+        <h2>Resources & FAQ</h2>
+        <p>Learn more about modding, how to get started, and answers to frequently asked questions.</p>
+        <ul>
+          <li><a href="#">What is modding?</a></li>
+          <li><a href="#">Is modding safe?</a></li>
+          <li><a href="#">How to install mods on PS3/PS4/PC?</a></li>
+          <li><a href="#">Common issues and troubleshooting</a></li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 ModsShop. All rights reserved.</p>
+    </footer>
   </div>
-</div>
-
-<script>
-  // Show the modal on page load
-  window.onload = function() {
-    document.getElementById('welcomeModal').style.display = 'block';
-  };
-
-  // Navigate to platform-specific pages
-  function navigateTo(platform) {
-    // Implement navigation logic here
-    alert('Navigating to ' + platform + ' mods page.');
-    // Example: window.location.href = platform + '.html';
-  }
-</script>
-
+  <script src="js/scripts.js"></script>
 </body>
 </html>
