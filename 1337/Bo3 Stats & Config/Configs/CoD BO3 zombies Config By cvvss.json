@@ -1,0 +1,342 @@
+{
+	"T7": {
+		"Aimbot": {
+			"GlobalSettings": {
+				"Mode": 1
+			},
+			"BasicSettings": {
+				"Autozoom": false,
+				"Autofire": true,
+				"Autowall": false,
+				"SilentAim": true
+			},
+			"AdvancedSettings": {
+				"SortAlgorithmTargets": 2,
+				"SortAlgorithmBones": 2,
+				"KillSounds": 0,
+				"HitmarkerSounds": false,
+				"Multithreading": false
+			},
+			"Removals": {
+				"NoRecoil": true,
+				"NoSpread": true,
+				"NoFlinch": true,
+				"QuickReload": true
+			},
+			"AntiAim": {
+				"PitchDefault": 0,
+				"YawDefault": 0,
+				"PitchOnSprint": 0,
+				"YawOnSprint": 0,
+				"PitchOnTarget": 0,
+				"YawOnTarget": 0,
+				"SpinSpeed": -30.0,
+				"ShieldPitchShift": 70.0,
+				"ShieldYawShift": 100.0,
+				"CustomPitch": 70.0,
+				"CustomYaw": -180.0
+			},
+			"TargetSelection": {
+				"TargetActors": true,
+				"TargetVehicles": true,
+				"TargetHelicopters": true
+			},
+			"BoneSelection": {
+				"Inclusion": 1,
+				"Selection": 0
+			}
+		},
+		"Esp": {
+			"GlobalSettings": {
+				"Mode": 3
+			},
+			"WorldSpace": {
+				"Boxes": 0,
+				"Bones": 2,
+				"Snaplines": 0,
+				"Entities": 2,
+				"Distances": false,
+				"Names": true,
+				"Weapons": false,
+				"HealthBars": true,
+				"AimPos": false,
+				"Crosshair": false,
+				"BulletTracers": true,
+				"ThreatWarning": false
+			},
+			"ScreenSpace": {
+				"Compass": false,
+				"Radar": false
+			},
+			"Colors": {
+				"AxisVisible": {
+					"Red": 0.06451618671417236,
+					"Green": 1.0,
+					"Blue": 0.0,
+					"Alpha": 1.0,
+					"Speed": 0.0
+				},
+				"AxisVisibleText": {
+					"Red": 1.0,
+					"Green": 0.9999899864196777,
+					"Blue": 0.9999899864196777,
+					"Alpha": 1.0,
+					"Speed": 0.0
+				},
+				"AxisVisibleOutline": {
+					"Red": 0.0,
+					"Green": 0.0,
+					"Blue": 0.0,
+					"Alpha": 1.0,
+					"Speed": 0.0
+				},
+				"AxisOccluded": {
+					"Red": 0.06451618671417236,
+					"Green": 1.0,
+					"Blue": 0.0,
+					"Alpha": 1.0,
+					"Speed": 0.0
+				},
+				"AxisOccludedText": {
+					"Red": 1.0,
+					"Green": 0.9999899864196777,
+					"Blue": 0.9999899864196777,
+					"Alpha": 1.0,
+					"Speed": 0.0
+				},
+				"AxisOccludedOutline": {
+					"Red": 0.0,
+					"Green": 0.0,
+					"Blue": 0.0,
+					"Alpha": 1.0,
+					"Speed": 0.0
+				},
+				"AlliesVisible": {
+					"Red": 0.0,
+					"Green": 1.0,
+					"Blue": 0.12903213500976563,
+					"Alpha": 1.0,
+					"Speed": 0.0
+				},
+				"AlliesVisibleText": {
+					"Red": 1.0,
+					"Green": 0.9999899864196777,
+					"Blue": 0.9999899864196777,
+					"Alpha": 1.0,
+					"Speed": 0.0
+				},
+				"AlliesVisibleOutline": {
+					"Red": 0.0,
+					"Green": 0.0,
+					"Blue": 0.0,
+					"Alpha": 1.0,
+					"Speed": 0.0
+				},
+				"AlliesOccluded": {
+					"Red": 0.0,
+					"Green": 1.0,
+					"Blue": 0.12903213500976563,
+					"Alpha": 1.0,
+					"Speed": 0.0
+				},
+				"AlliesOccludedText": {
+					"Red": 0.9999899864196777,
+					"Green": 1.0,
+					"Blue": 0.9999912977218628,
+					"Alpha": 1.0,
+					"Speed": 0.0
+				},
+				"AlliesOccludedOutline": {
+					"Red": 0.0,
+					"Green": 0.0,
+					"Blue": 0.0,
+					"Alpha": 1.0,
+					"Speed": 0.0
+				},
+				"Entities": {
+					"Red": 0.8804364204406738,
+					"Green": 0.0,
+					"Blue": 1.0,
+					"Alpha": 1.0,
+					"Speed": 70.0
+				},
+				"EntitiesText": {
+					"Red": 0.8837904930114746,
+					"Green": 0.0,
+					"Blue": 1.0,
+					"Alpha": 1.0,
+					"Speed": 65.0
+				},
+				"EntitiesOutline": {
+					"Red": 0.0,
+					"Green": 0.0,
+					"Blue": 0.0,
+					"Alpha": 1.0,
+					"Speed": 0.0
+				},
+				"AimbotTarget": {
+					"Red": 0.0,
+					"Green": 1.0,
+					"Blue": 0.08784055709838867,
+					"Alpha": 1.0,
+					"Speed": 70.0
+				},
+				"AimbotTargetText": {
+					"Red": 1.0,
+					"Green": 0.9999899864196777,
+					"Blue": 0.9999924898147583,
+					"Alpha": 1.0,
+					"Speed": 0.0
+				},
+				"AimbotTargetOutline": {
+					"Red": 0.0,
+					"Green": 0.0,
+					"Blue": 0.0,
+					"Alpha": 1.0,
+					"Speed": 0.0
+				},
+				"AntiAimTarget": {
+					"Red": 1.0,
+					"Green": 1.0,
+					"Blue": 0.25,
+					"Alpha": 1.0,
+					"Speed": 0.0
+				},
+				"AntiAimTargetText": {
+					"Red": 1.0,
+					"Green": 1.0,
+					"Blue": 0.25,
+					"Alpha": 1.0,
+					"Speed": 0.0
+				},
+				"AntiAimTargetOutline": {
+					"Red": 0.0,
+					"Green": 0.0,
+					"Blue": 0.0,
+					"Alpha": 1.0,
+					"Speed": 0.0
+				},
+				"Prioritized": {
+					"Red": 1.0,
+					"Green": 1.0,
+					"Blue": 0.25,
+					"Alpha": 1.0,
+					"Speed": 0.0
+				},
+				"PrioritizedText": {
+					"Red": 1.0,
+					"Green": 1.0,
+					"Blue": 0.25,
+					"Alpha": 1.0,
+					"Speed": 0.0
+				},
+				"PrioritizedOutline": {
+					"Red": 0.0,
+					"Green": 0.0,
+					"Blue": 0.0,
+					"Alpha": 1.0,
+					"Speed": 0.0
+				},
+				"AimPos": {
+					"Red": 1.0,
+					"Green": 1.0,
+					"Blue": 1.0,
+					"Alpha": 1.0,
+					"Speed": 0.0
+				},
+				"AimPosOutline": {
+					"Red": 0.0,
+					"Green": 0.0,
+					"Blue": 0.0,
+					"Alpha": 1.0,
+					"Speed": 0.0
+				},
+				"Crosshair": {
+					"Red": 0.8716187477111816,
+					"Green": 0.0,
+					"Blue": 1.0,
+					"Alpha": 1.0,
+					"Speed": 70.0
+				},
+				"TracerLine": {
+					"Red": 1.0,
+					"Green": 0.0,
+					"Blue": 0.9863238334655762,
+					"Alpha": 1.0,
+					"Speed": 200.0
+				},
+				"TracerHit": {
+					"Red": 0.932466983795166,
+					"Green": 0.0,
+					"Blue": 1.0,
+					"Alpha": 1.0,
+					"Speed": 200.0
+				},
+				"TracerHitOutline": {
+					"Red": 0.0,
+					"Green": 0.0,
+					"Blue": 0.0,
+					"Alpha": 1.0,
+					"Speed": 0.0
+				},
+				"ThreatWarning": {
+					"Red": 1.0,
+					"Green": 1.0,
+					"Blue": 1.0,
+					"Alpha": 0.125,
+					"Speed": 0.0
+				}
+			}
+		},
+		"Misc": {
+			"Enhancements": {
+				"ThirdPerson": false,
+				"FullAutoAllWeapons": false,
+				"PermaHatr": true
+			},
+			"AimbotTweaks": {
+				"Aimbone": 1,
+				"Aimangle": 180.0,
+				"Aimpower": 100.0,
+				"MinDamage": 0.0,
+				"FirerateLimiter": 0.0,
+				"AutoaimTime": 0.0,
+				"AutoaimDelay": 0.0,
+				"AutozoomDelay": 0.0,
+				"AutofireDelay": 0.0,
+				"FakeLag": 0.0,
+				"FieldOfView": 120.0,
+				"ThirdPersonHotkey": 69,
+				"AirstuckHotkey": 90
+			},
+			"Functions": {
+				"ChangeName": "^5CIDZ^2#1019"
+			},
+			"FUnctions": {
+				"ChangeClan": "nb0t"
+			}
+		},
+		"Tools": {
+			"Loot": {
+				"GiveCurrency": 0,
+				"SpendCurrency": 0,
+				"BurnDuplicates": false,
+				"SpoofAllDlcItems": true
+			},
+			"TrollToolkit": {
+				"Killspam": "",
+				"Chatspam": "",
+				"Votespam": "",
+				"JoinBySteamId": "",
+				"CrashBySteamId": "",
+				"PopupBySteamId": ""
+			},
+			"CommandInput": {
+				"Cbuf_AddText": "god",
+				"CL_AddReliableCommand": "callvote map \"%c\"",
+				"SV_GameSendServerCommand": "",
+				"Dvar_SetFromStringByName": "sv_cheats 1"
+			}
+		}
+	}
+}

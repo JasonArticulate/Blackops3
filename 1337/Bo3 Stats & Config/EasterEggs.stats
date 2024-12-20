@@ -1,0 +1,14 @@
+[
+	{ "PlayerStatsList/darkops_zod_ee/statValue": 1 },
+	{ "PlayerStatsList/darkops_factory_ee/statValue": 1 },
+	{ "PlayerStatsList/darkops_castle_ee/statValue": 1 },
+	{ "PlayerStatsList/darkops_island_ee/statValue": 1 },
+	{ "PlayerStatsList/darkops_stalingrad_ee/statValue": 1 },
+	{ "PlayerStatsList/darkops_genesis_ee/statValue": 1 },
+	{ "PlayerStatsList/DARKOPS_GENESIS_SUPER_EE/statValue": 1 },
+	{ "PlayerStatsList/darkops_zod_super_ee/statValue": 1 },
+	{ "PlayerStatsList/darkops_factory_super_ee/statValue": 1 },
+	{ "PlayerStatsList/darkops_castle_super_ee/statValue": 1 },
+	{ "PlayerStatsList/darkops_island_super_ee/statValue": 1 },
+	{ "PlayerStatsList/darkops_stalingrad_super_ee/statValue": 1 }
+]
